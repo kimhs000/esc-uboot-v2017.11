@@ -264,7 +264,6 @@ config TARGET_MX6SXSABRESD
 config TARGET_MX6ESC
 	bool "mx6esc"
 	select BOARD_LATE_INIT
-	select SUPPORT_SPL
 	select DM
 	select DM_THERMAL
 	select BOARD_EARLY_INIT_F
