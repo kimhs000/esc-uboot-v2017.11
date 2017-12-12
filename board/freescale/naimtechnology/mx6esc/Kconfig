@@ -1,0 +1,12 @@
+if TARGET_MX6ESC
+
+config SYS_BOARD
+	default "mx6esc"
+
+config SYS_VENDOR
+	default "naimtechnology"
+
+config SYS_CONFIG_NAME
+	default "mx6esc"
+
+endif
